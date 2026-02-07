@@ -1,0 +1,25 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               dlog_hpi   R-squared:                       0.002
+Model:                            OLS   Adj. R-squared:                  0.002
+Method:                 Least Squares   F-statistic:                     418.3
+Date:                Sat, 07 Feb 2026   Prob (F-statistic):           6.99e-93
+Time:                        00:31:43   Log-Likelihood:             4.5721e+05
+No. Observations:              208254   AIC:                        -9.144e+05
+Df Residuals:                  208252   BIC:                        -9.144e+05
+Df Model:                           1                                         
+Covariance Type:                  HC1                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0105   6.01e-05    174.717      0.000       0.010       0.011
+dlog_emp       0.1612      0.008     20.453      0.000       0.146       0.177
+==============================================================================
+Omnibus:                    65196.311   Durbin-Watson:                   0.658
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):         14111548.573
+Skew:                          -0.121   Prob(JB):                         0.00
+Kurtosis:                      43.326   Cond. No.                         143.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC1)
